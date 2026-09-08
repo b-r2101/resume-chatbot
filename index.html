@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bassma Resume Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chatBot">
+    <!-- Header with dark mode toggle -->
+    <header>
+      <h2>Bassma Resume Bot</h2>
+      <button onclick="toggleTheme()">🌙 Toggle Dark Mode</button>
+    </header>
+
+    <!-- Chat area -->
+    <ul id="chatbox">
+      <li class="chat-incoming">👋 Hello! Ask me about my resume.</li>
+    </ul>
+
+    <!-- Input area -->
+    <div class="chat-input">
+      <input id="userInput" type="text" placeholder="Type a question...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
